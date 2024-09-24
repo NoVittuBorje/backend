@@ -1,12 +1,14 @@
 
-DELETE  http://localhost:3001/api/persons/2
+DELETE  https://puhelin-backend.fly.dev/api/persons/4
 ###
-POST http://localhost:3001/api/persons 
+POST https://puhelin-backend.fly.dev/api/persons
 content-type: application/json
 
 {
-    "name": "aeyytHJffh3345345ghjrtgyh45K345",
+    "name": "aeyyt3333HJ3456h45K345",
     "number": "1456456"
 }
 ###
-GET http://localhost:3001/api/persons
+GET https://puhelin-backend.fly.dev/api/persons
+###
+GET https://puhelin-backend.fly.dev/api/persons/
